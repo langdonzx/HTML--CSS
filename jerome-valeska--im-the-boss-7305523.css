@@ -1,0 +1,270 @@
+/* ####################################################################### */
+/* Modelo de Página do Usuário Spirit                                      */
+/* Através desse arquivo você pode personalizar seu perfil                 */
+/* Você pode mudar as cores, fontes e imagens                              */
+                                                                         
+/* ####################################################################### */
+/* Estilos de todo o Site                                                 */
+
+
+body {
+	background: #fffff; 
+}
+
+#fundo {
+	background:url(http://i.imgur.com/USK80uB.jpg) repeat-X left top;
+}
+
+fieldset {
+	border: 1px solid #459055;
+        color: #000000;
+
+}
+
+#meio span, #meio span a, .admin, .admin:hover, .ativo, .ativo:hover, .link {
+        color:#000000;
+}
+
+#base {
+	background: url(http://i.imgur.com/USK80uB.jpg) no-repeat center top;
+}
+
+/* ####################################################################### */
+/* Estilos da parte de Cima do Site                                        */
+
+#cima #logo {
+        height: 300px;
+	background: url(http://i.imgur.com/ScwgPxc.jpg);
+}
+
+#nav {
+          background: 000000;
+    position: relative;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+    border-radius: 0px;
+    margin-bottom: -1px;
+    bottom: -10px;
+    position: relative;
+}
+
+#nav a {
+       font-family: Arial;
+       color:#ffffff;
+}
+
+#nav a:hover {
+       color: #ccc;
+}
+
+#secaoNav  {
+	background: #00000;
+        border:0 px solid #EEE8E1;
+}
+
+#secaoNav, #secaoNav a {
+        font-size: 12px;
+	color: #ffffff;
+}
+
+/* ####################################################################### */
+/* Estilos da parte de Baixo do Site                                      */
+
+#baixo {
+	border-top: 5px solid #E9E9E9;
+	background-color: #EFEFEF;
+	color: #838383;
+}
+
+#baixo a {
+	color: #666666;
+}
+
+/* ####################################################################### */
+/* Estilos do Menu Direito do Site                                         */
+
+.boxMenuDireito {
+	border: 0px;
+    background-color: #000000;
+    color: #2e007b;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    font-size: 8px!important;
+    text-transform: lowercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px #000000;
+
+}
+
+.boxMenuDireito .tituloMenuDireito {
+        color:#2799a7;
+        font-size:13px;
+}
+
+
+.boxMenuDireito .textoMenuDireito{
+        border: 1px solid #1f1f1f;
+    background-color: #f8f8f8;
+    color: #2799a7;
+    margin-bottom: 20px;
+    border-radius: 0px;
+    font-size: 8px!important;
+    text-transform: lowercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    box-shadow: 0px 0px 10px #0c0c0c;
+}
+
+/* ####################################################################### */
+/* Estilo das imagens do menu direito, tal como os avatares               */
+
+.boxMenuDireito img{
+           border-radius: 50px;
+
+}
+
+.boxMenuDireito img:hover{
+           border-radius: 50px;
+
+}
+
+/* ####################################################################### */
+/* Estilos que pertencem ao Conteúdo do Site                               */
+
+#quote {
+	color: #000000;
+	background-color: #C0C0C0;
+        border:1px solid #EEE8E1;
+        font-size:13px;
+}
+
+.boxConteudo .titulo, .boxConteudo h1, .boxConteudo h2, .boxConteudo h1 a, .boxConteudo h2 a {
+color: #2799a7;
+        font-size: 13px;
+padding: 15px;
+    font-weight: normal!important;
+    margin: 0!important;
+}
+
+.boxConteudo .titulo,.boxConteudo h1,.boxConteudo h2{
+        background: #f8f8f8;
+    padding: 10px;
+    font-size: 10px!important;
+    font-style: normal!important;
+    margin-top: 10px!important;
+}
+
+.boxConteudo .textoBg1, .boxConteudo tr.textoBg1 td {
+	    background-color: #cdcdcd;
+    color: #558fc4;
+    box-shadow: none;
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.boxConteudo .textoBg2, .boxConteudo tr.textoBg2 td {
+	box-shadow: none;
+    background-color: #fffff;
+    color: #558fc4;
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px
+}
+}
+
+.boxConteudo .baixo {
+background-color: #000000;
+	color: #ffffff;
+text-align: center!important;
+    margin-top: 10px;
+    border: 1px solid #;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    padding: 4px;
+    padding-bottom: 7px;
+    background: #;
+    list-style-type: none!important;
+}
+
+.boxConteudo .baixo a {
+        font-size: 14px;
+}
+
+
+/* ####################################################################### */
+/* Elementos Condensados                                                   */
+
+a, body {
+	color: #000000;
+}
+
+a:hover {
+    color: #cccccc;
+}
+
+/* ####################################################################### */
+/* Estilo das Caixas de Texto onde se escreve comentários, recados
+no Livro de Visitas e a Busca no menu de Amigos                            */
+
+#meio input {
+    background-color: #000000; /* Cor do fundo */
+    color: #ffffff; /* Cor do Texto */
+    border: 1px inset #000; /* Tamanho e cor das bordas */
+    border-radius: 0px; /* A propriedade CSS3 border-radius destina-se a definir bordas arredondadas. */
+    font-size: 12px !important; /* Tamanho da fonte */
+}
+
+#meio textarea {
+    background-color: #6b2829 !important;
+    font-family: calibri;
+    color: #070062 !important;
+    font-size: 12px !important;
+    border: none !important;
+    border-radius: 0px;
+}
+
+/* ####################################################################### */
+/* Botão Adicionar                                                         */
+
+#nav .btn {
+    color: #ffffff  !important;
+    background-color: #000000 !important;       
+border-radius: 0px color #000000;    
+}
+
+/* ####################################################################### */
+/* Botões do Meio (Adicionar aos favoritos, Observar Usuário, etc)        */
+
+#meio .btn {
+      color: #fffff !important;
+    background-color: #00000 !important; 
+}
+
+#meio .btn:hover {
+      color: #ffffff !important;
+    background-color: #000000 !important; 
+}
+
+#meio .btn span {
+    color: #070062;
+}
+
+/* ####################################################################### */
+/* Dropdown dos Menus do Meio                                                                                              */
+
+#meio > ul > li > div > ul.dropdown-menu > li >a {
+    color: #5D5D5D;     
+}
+
+#meio .dropdown-menu > li > a:hover{
+     color: #070062 !important;
+    background-color: #6b2829 !important;     
+}
